@@ -39,22 +39,28 @@
 
             <h2> <?php echo $teacher["name"] ?>'s Details</h2>
 
-            <h3> General Information </h3>
-            <h4>Name: <?php echo $teacher["name"] ?></h4> 
-            <h4>Email: <?php echo $teacher["email"] ?></h4> 
-            <h4>Mobile: <?php echo $teacher["mobile"] ?></h4> 
-            <h4>Department: <?php echo $teacher["department"] ?></h4> 
+            <div class="center-content">
+                <h3> General Information </h3>
+                <h4>Name: <?php echo $teacher["name"] ?></h4> 
+                <h4>Email: <?php echo $teacher["email"] ?></h4> 
+                <h4>Mobile: <?php echo $teacher["mobile"] ?></h4> 
+                <h4>Department: <?php echo $teacher["department"] ?></h4> 
+            </div>
 
-            <h3> Teaching Experience </h3>
-            <h4>Position: <?php echo $teacher["position"] ?></h4> 
-            <h4>Organization: <?php echo $teacher["organization"] ?></h4> 
-            <h4>From: <?php echo $teacher["tfrom"] ?></h4> 
-            <h4>To: <?php echo $teacher["tto"] ?></h4> 
+            <div class="center-content">
+                <h3> Teaching Experience </h3>
+                <h4>Position: <?php echo $teacher["position"] ?></h4> 
+                <h4>Organization: <?php echo $teacher["organization"] ?></h4> 
+                <h4>From: <?php echo $teacher["tfrom"] ?></h4> 
+                <h4>To: <?php echo $teacher["tto"] ?></h4> 
+            </div>
 
-            <h3> Publications </h3>
-            <h4>Title: <?php echo $teacher["title"] ?></h4> 
-            <h4>Volume: <?php echo $teacher["volume"] ?></h4> 
-            <h4>Year: <?php echo $teacher["year"] ?></h4> 
+            <div class="center-content">
+                <h3> Publications </h3>
+                <h4>Title: <?php echo $teacher["title"] ?></h4> 
+                <h4>Volume: <?php echo $teacher["volume"] ?></h4> 
+                <h4>Year: <?php echo $teacher["year"] ?></h4> 
+            </div>
 
         </div>
 </div>
